@@ -24,7 +24,7 @@ else:
         posts_replied_to = list(filter(None, posts_replied_to))
 
 #bot signature
-bot_sign = "\n \n ^^(I'm a bot. If I did something unexpected, please contact /u/wellfriedbeans.)"
+bot_sign = "\n &nbsp; \n ^(I'm a bot. Check out the code) ^[here](https://github.com/ameya98/RelevantQuotesBot)."
 #iterate through the subreddits
 
 subreddit_list = ["politics", "worldnews", "news", "science", "Showerthoughts"]
@@ -43,7 +43,7 @@ for subreddits in subreddit_list:
                     quotes = return_quote.search(word_id[word])
                     
                     if(type(quotes) is list):
-                        submission.reply(">" + quotes[randint(0, len(quotes) - 1)])
+                        submission.reply(">" + quotes[randint(0, len(quotes) - 1)] + bot_sign)
                         print("Bot replied to: ", submission.title)
 
                         posts_replied_to.append(submission.id)
