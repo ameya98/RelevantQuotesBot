@@ -1,10 +1,7 @@
 import requests
 import bs4
 
-proxies = {
-    'http': 'http://ameya.daigavane:IITG2020%21@202.141.80.20:3128/',
-    'https': 'http://ameya.daigavane:IITG2020%21@202.141.80.20:3128/',
-    }
+proxies = {}
 
 common_url = "http://www.brainyquote.com/quotes/topics/topic_"
 
