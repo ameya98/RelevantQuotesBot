@@ -1,2 +1,2 @@
 # RelevantQuotesBot
-The RelevantQuotesBot of Reddit fame.
+The  [RelevantQuotesBot](https://www.reddit.com/user/RelevantQuotesBot/?sort=top) of Reddit fame.
