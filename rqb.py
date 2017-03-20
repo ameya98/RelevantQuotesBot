@@ -41,10 +41,13 @@ for subreddits in subreddit_list:
                 if word in word_id:
                     
                     quotes = return_quote.search(word_id[word])
-                    submission.reply(">" + quotes[randint(0, len(quotes) - 1)])
-                    print("Bot replied to: ", submission.title)
+                    
+                    if(type(quotes) is list):
+                        submission.reply(">" + quotes[randint(0, len(quotes) - 1)])
+                        print("Bot replied to: ", submission.title)
 
-                    posts_replied_to.append(submission.id)
+                        posts_replied_to.append(submission.id)
+                    
                     break
                 
             print("Score: ", submission.score)
