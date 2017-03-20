@@ -14,7 +14,10 @@ When the bot is run, it searches the subreddit posts for these hitwords.
 If a hitword is found, it randomly selects a quote from the hitword's list, and posts it as a reply.
 
 # RQB has the top comment on the top post of /r/politics, just after 4 hours of deployment!
-!(https://github.com/ameya98/RelevantQuotesBot/blob/master/Screenshot%20(4).png)
-!(https://github.com/ameya98/RelevantQuotesBot/blob/master/Screenshot%20(5).png)
+Currently 1805 upvotes and rising!
+![](https://github.com/ameya98/RelevantQuotesBot/blob/master/Screenshot%20(4).png)
+
+This was the profile overview after around 4 hours of deployment:
+![](https://github.com/ameya98/RelevantQuotesBot/blob/master/Screenshot%20(5).png)
 # This would not have been possible without...
 [PRAW](https://praw.readthedocs.io/en/latest/), [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [Requests](http://docs.python-requests.org/en/master/), [Python For Engineers](http://pythonforengineers.com) and all of my friends and family.
