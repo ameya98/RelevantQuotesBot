@@ -1,8 +1,7 @@
 import requests
 import bs4
 
-proxies = {
-    }
+proxies = {}
 
 topics_page = "http://www.brainyquote.com"
 topics_page_obj = requests.get(topics_page + "/quotes/topics.html", proxies = proxies)
