@@ -15,7 +15,7 @@ This was the profile overview after around 4 hours of deployment:
 Reddit is an extremely popular social news aggregation and discussion website, ranking as the #7 most visited web-site in the US.
 RQB searches titles of popular posts in certain subreddits (smaller communities for specific topics), and comments with relevant quotes.
 
-# The Execution
+## The Execution
 RQB first creates a dictionary of hitwords - by sampling a popular quotes website, [BrainyQuote](https://www.brainyquote.com/quotes/topics.html).
 It scrapes each of these 'topics' pages for quotes - making a list of top quotes for each word.
 
